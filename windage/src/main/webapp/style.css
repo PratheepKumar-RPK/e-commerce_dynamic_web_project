@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	
+	background-color: white;;
+}
+
+
+
+
+
+
+
+.chatbot{
+	width: 45px;
+	height: 45px;
+	background: url("icons/8.png")no-repeat;
+	background-size: cover;
+	float: right;
+	position: fixed;
+	left: 1370px;
+	bottom: 90px;
+}
+.backtotop{
+    width: 45px;
+	height: 45px;
+	background: url("icons/Untitled-1.png")no-repeat;
+	background-size: cover;
+	float: right;
+	position: fixed;
+	left: 1370px;
+	bottom: 30px;
+
+}
+.hr1 hr{
+	border: 2px solid #000b27;
+	opacity: .4;
+	width: 90%;
+	margin: 0 auto;
+}
+.details{
+	width: 1366px;
+	height: 998px;
+	position: relative;
+}
+
+
+
+
+.customericon{
+	width: 85px;
+	height: 66px;
+	background: url("icons/28.png")no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	
+}
+.customer h2{
+	text-align: center;
+	color: #ffcc00;
+	margin-top: 15px;
+	font-size: 30px;
+}
+.customer h4{
+	text-align: center;
+	color: #ffcc00;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.factoryicon{
+	width: 79px;
+	height: 101px;
+	background: url("icons/27.png")no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+.factory h2{
+	text-align: center;
+	color: #ffcc00;
+	font-size: 30px;
+	margin-top: 15px;
+}
+.factory h4{
+	text-align: center;
+	color: #ffcc00;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.distributoricon{
+	width: 88px;
+	height: 88px;
+	background: url("icons/26.png")no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+.distributor h2{
+	text-align: center;
+	color: #ffcc00;
+	font-size: 30px;
+	margin-top: 15px;
+}
+.distributor h4{
+	text-align: center;
+	color: #ffcc00;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.contriesicon{
+	width: 86px;
+	height: 86px;
+	background: url("icons/29.png")no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+.contries h2{
+	text-align: center;
+	color: #ffcc00;
+	font-size: 30px;
+	margin-top: 15px;
+}
+.contries h4{
+	text-align: center;
+	color: #ffcc00;
+	font-size: 20px;
+	margin-top: 15px;
+}
+.customer,.factory,.distributor,.contries{
+	float: left;
+	margin-left: 118px;
+}
+.deals{
+	width: 1206px;
+	height: 666px;
+	margin: 0 auto;
+	margin-top: 100px
+}
+.bestdealbox{
+	width: 1206px;
+	height: 40px;
+	margin: 0 auto;
+}
+.bestdeal{
+	width: 199px;
+	height: 40px;
+	background-color: #000b27;
+	color: #ffcc00;
+	float: left;
+	border-radius: 13px;
+}
+.bestdeal h2{
+	text-align: center;
+	padding-top: 4px;
+}
+.sell ul li{
+	list-style: none;
+	display: inline-block;
+	color: #000b27;
+	padding-left: 45px;
+}
+.sell{
+	margin-left: 790px;
+	padding-top: 12px;
+}
+.sellproduct{
+	width: 1206px;
+	height: 595px;
+	margin: 0 auto;
+	margin-top: 30px;
+	
+}
+.product{
+	width: 100px;
+	height: 150px;
+	border: 1px solid #ffcc00;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+.product1img{
+	width: 65px;
+	height: 102px;
+	background: url("Untitled-1.png")no-repeat;
+	background-size: cover;
+	float: left;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+.text{
+	width: 200px;
+	height: 90px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-left: 15%;
+	
+}
+.fa-heart-circle-plus{
+	color: #ffcc00; margin-left: 20%;
+}
+.product1img{
+	margin: 0; padding: 0;
+}
+
+.card-img-left{
+	height: 100%; width: 150%;
+}
+
+.star{
+	width: 79px;
+	height: 14px;
+	background: url("icons/star.png")no-repeat;
+	background-size: cover;
+}
+.text h4{
+	
+	color: #ffcc00;
+}
+
+
+
+
+.iot{
+	width: 1366px;
+	height: 600px;
+	background: url("11111.png")no-repeat;
+	background-size: cover;
+}
+.iotbutten1{
+	width: 250px;
+	height: 50px;
+	color: #000b27;
+	background-color: #ffcc00;
+	margin-top: 550px;
+	font-size: 20px;
+	border: none;
+}
+.iotbutten2{
+	width: 250px;
+	height: 50px;
+	color: #ffcc00;
+	background-color: #000b27;
+	margin-left: 570px;
+	margin-top: 540px;
+	text-align: center;
+	font-size: 20px;
+	border: none;
+}
+.iotbutten1 p{
+	padding-top: 8px;
+}
+.iotbutten2{
+	padding-top: 10px;
+}
+.sale{
+	width: 1366px;
+	height: 500px;
+	background: url("banner-2.png")no-repeat;
+	background-size: cover;
+	margin-top: 50px;
+}
+.salebutten1{
+	width: 250px;
+	height: 50px;
+	color: #ffcc00;
+	background-color: #000b27;
+	margin-top: 450px;
+	font-size: 20px;
+	border: none;
+}
+.salebutten2{
+	width: 250px;
+	height: 50px;
+	color: #000b27;
+	background-color: #ffcc00;
+	margin-left: 570px;
+	margin-top:400px;
+	text-align: center;
+	font-size: 20px;
+	border: none;
+}
+.subscribebox{
+	width: 100%;
+	height: 100px;
+	background-color: #ffcc00;
+	margin-top: 150px;
+}
+.subscribebox h4{
+	margin-left: 100px;
+	padding-top: 10px;
+	
+}
+.subscribebox p{
+	margin-left: 100px;
+	
+}
+
+
